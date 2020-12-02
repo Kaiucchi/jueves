@@ -22,22 +22,22 @@ const HoyEsJueves = () => {
             </div>
         );
     }
-    if (date == 3){
+    /*if (date == 3){
         return(
             <div className={`background typewriter ${diaSemana}`}>
                 <h1>Hoy es <span className="txt anim-text-flow">jueves?</span></h1>
-                <h2>No, hoy es {diaSemana}</h2>
+                <h2>No, hoy es {diaSemana} mis panas</h2>
                 <img className="media" src={sapomiercoles} alt=""/>
             </div>
         );
-    }
+    } */
 
     else{
         return(
             <div className={`background typewriter ${diaSemana}`}>
                 <h1>Hoy es jueves?</h1>
                 <h2>SÍ, A ROCKEAR GIORGIOS</h2>
-                <video src={esjueves || felizjueves}></video>
+                <video autoplay src={esjueves || felizjueves}></video>
             </div>
         );
     };
