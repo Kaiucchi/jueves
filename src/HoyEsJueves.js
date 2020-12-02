@@ -22,7 +22,7 @@ const HoyEsJueves = () => {
             </div>
         );
     }
-    /*if (date == 3){
+    if (date == 3){
         return(
             <div className={`background typewriter ${diaSemana}`}>
                 <h1>Hoy es <span className="txt anim-text-flow">jueves?</span></h1>
@@ -30,14 +30,16 @@ const HoyEsJueves = () => {
                 <img className="media" src={sapomiercoles} alt=""/>
             </div>
         );
-    } */
+    } 
 
     else{
         return(
             <div className={`background typewriter ${diaSemana}`}>
-                <h1>Hoy es jueves?</h1>
-                <h2>SÍ, A ROCKEAR GIORGIOS</h2>
-                <video autoplay src={esjueves || felizjueves}></video>
+                <h1>Hoy es <span className="txt anim-text-flow">jueves?</span></h1>
+                <h2><span className="txt anim-text-flow">SÍ, A ROCKEAR GIORGIOS</span></h2>
+                <video controls autoplay loop>
+                    <source src={esjueves || felizjueves}/>
+                </video>
             </div>
         );
     };
