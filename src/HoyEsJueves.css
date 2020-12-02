@@ -27,6 +27,7 @@
 .media{
   width:200px;
   height:auto;
+  margin-top:10px;
 }
 
 /*  Animaciones     */
@@ -115,6 +116,9 @@
     color: #d67e5c;
   }
 }
+
+
+
 
 /*  Animaciones     */
 
