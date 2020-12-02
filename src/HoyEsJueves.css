@@ -1,0 +1,121 @@
+* {
+  font-family: "Press Start 2P", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background: black;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.background h1, .background h2 {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.background h1 {
+  font-size: 15px;
+}
+
+.media{
+  width:200px;
+  height:auto;
+}
+
+/*  Animaciones     */
+.anim-text-flow,
+.anim-text-flow-hover:hover {
+  /*
+   * Animation variables
+   */
+  /*
+   * Elements settings
+   */
+  /*
+   * Keyframe loop
+   */
+}
+.anim-text-flow,
+.anim-text-flow-hover:hover{
+  animation-name: anim-text-flow-keys;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+@keyframes anim-text-flow-keys {
+  0% {
+    color: #d65c6c;
+  }
+  5% {
+    color: #5cd6a3;
+  }
+  10% {
+    color: #d65cb6;
+  }
+  15% {
+    color: #8b5cd6;
+  }
+  20% {
+    color: #a5d65c;
+  }
+  25% {
+    color: #d69f5c;
+  }
+  30% {
+    color: #5cb6d6;
+  }
+  35% {
+    color: #d65cd4;
+  }
+  40% {
+    color: #a15cd6;
+  }
+  45% {
+    color: #93d65c;
+  }
+  50% {
+    color: #875cd6;
+  }
+  55% {
+    color: #5ca7d6;
+  }
+  60% {
+    color: #5c83d6;
+  }
+  65% {
+    color: #5cd0d6;
+  }
+  70% {
+    color: #d65c8b;
+  }
+  75% {
+    color: #d6cc5c;
+  }
+  80% {
+    color: #5cc8d6;
+  }
+  85% {
+    color: #d65ca5;
+  }
+  90% {
+    color: #5c74d6;
+  }
+  95% {
+    color: #5c8dd6;
+  }
+  100% {
+    color: #d67e5c;
+  }
+}
+
+/*  Animaciones     */
+
+/*# sourceMappingURL=HoyEsJueves.css.map */
